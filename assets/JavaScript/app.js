@@ -58,8 +58,8 @@ function displayGiphyInfo() {
 
                 // action(personImage, still);
                 // Appending the paragraph and personImage we created to the "gifDiv" div we created
-                gifDiv.append(cardContent);
                 gifDiv.append(gifImage);
+                gifDiv.append(cardContent);
                 col4.append(gifDiv);
 
                 // Prepending the gifDiv to the ".row" div in the HTML
