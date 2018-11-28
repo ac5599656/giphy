@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: rgb(131, 131, 13);
+  }
+
+  .card {
+    border: 3px solid #E5E5E5;
+    margin-bottom: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .card-content p {
+    margin: 0.5em 0;
+  }
+
+ #movie-form {
+  width: 100%;
+  margin: 0 auto 5em auto;
+ }
+
+ #buttons-view{
+    margin: 0 auto 1em auto;
+ }
+
+ #add-gif{
+   margin: 0 auto;
+
+ }
+
+ #movie-input{
+   margin: 1 em auto;
+ }
+
+ .wrapper{
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .container{
+   text-align: center;
+   color: rgb(245, 130, 16);
+ }
+
+ .card-content{
+   background-color: white;
+   border: 1px solid bisque;
+ }
+
+ button {
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  color:rgb(245, 130, 16);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid bisque;
+  border-radius: 16px;
+}
+
+input{
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 10px 10px;
+  border: 1px solid bisque;
+  color:rgb(245, 130, 16);
+
+}
