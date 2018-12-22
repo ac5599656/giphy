@@ -83,3 +83,41 @@ input{
   color:rgb(245, 130, 16);
 
 }
+#add-movie {
+ margin-top: 1em; 
+ margin-left: 19em;
+ margin-right: 19em;
+}
+
+@media only screen and (max-width: 980px) {
+     #add-movie {
+       margin-top: 1em;
+       margin-left: 14em;
+       margin-right: 14em;
+     }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  #add-movie {
+    margin-top: 1em;
+    margin-left: 11em;
+    margin-right: 11em;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 640px) {
+  #add-movie {
+    margin-top: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+
+
+}
